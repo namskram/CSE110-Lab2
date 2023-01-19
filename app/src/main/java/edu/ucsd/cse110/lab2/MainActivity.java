@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
         // Clear the pending operation and update the display.
         pendingOp = Optional.empty();
         displayStr = String.valueOf(result);
-        Utilities.trimDisplayStr(this.displayStr);
+        Utilities.trimDisplayStr(displayStr);
         updateDisplay();
     }
 
